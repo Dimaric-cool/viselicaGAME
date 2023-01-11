@@ -33,10 +33,10 @@ def line(pos1: tuple, pos2: tuple):
     speed(0)
 
 
-def draw_error(numerror):
+def draw_error(numError):
     global isDrawing
     isDrawing = True
-    match numerror:
+    match numError:
         case 1:
             line((-370, -250), (-25, -250))
         case 2:
