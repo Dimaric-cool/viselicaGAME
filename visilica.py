@@ -32,7 +32,8 @@ def line(pos1: tuple, pos2: tuple):
     penup()
     speed(0)
 
-
+def newFunk():
+    pass
 def draw_error(numError):
     global isDrawing
     isDrawing = True
