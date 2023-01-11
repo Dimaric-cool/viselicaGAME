@@ -33,6 +33,7 @@ def line(pos1: tuple, pos2: tuple):
     speed(0)
 
 def newFunk():
+    print("hello")
     pass
 def draw_error(numError):
     global isDrawing
